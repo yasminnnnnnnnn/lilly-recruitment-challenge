@@ -6,16 +6,52 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+
+
+
+
+<body class="medicine-page"> 
+    <a href="search.html" class="back-btn back-left">Back</a>  
+    <div class="container">
+        <h2 style="text-align: center;">Search Medicine</h2>
+        <div class="search-wrapper">
+            <input type="text" id="searchName" placeholder="e.g. Paracetamol">
+            <button id="searchSingle">Search</button>
+            <div id="result"></div>
+         </div>
+    </div>
+
     <div class="disclaimer" id="disclaimer">
         Disclaimer: All medicine names and prices used in this application are fictional and do not represent any real medicine(s).
     </div>
-    <header>
-        <h1>Medicine Tracker</h1>
-    </header>
-    <main>
 
-    </main>
+    <div class="container">
+
+        <header>
+            <h2 style="text-align: center;">Displaying All Medicine</h2>
+        </header>
+
+        <main>
+            <div id="list" class="center"></div>
+            <a href="update.html">
+                <h2 class="main-btn" >Edit Medicine</h2>
+            </a>
+        </main>
+    </div>
+
+    <div class="container">
+        <div style="text-align: center;">
+            <h2>Get Average Price</h2>
+            <button id="averagePrice" class="main-btn">Click Me</button>
+            <div id="average_price"></div>
+        </div>
+    </div>
+
+
+
     <script src="script.js"></script>
 </body>
+
+
 </html>

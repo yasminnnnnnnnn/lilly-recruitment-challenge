@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class="update-page">
+    <div class="disclaimer" id="disclaimer">
+            Disclaimer: All medicine names and prices used in this application are fictional and do not represent any real medicine(s).
+    </div>
+    <a href="index.html" class="back-btn">Back</a>
+
+    <div class="page-wrapper">
+
+        <div class="container" style="text-align: center;">
+            <h2>Add Medicine</h2>
+            <form id="medicineForm">
+                <label for="addName">Name:</label><br>
+                <input type="text" id="addName" name="addName" placeholder="e.g. Paracetamol"required><br>
+
+                <label for="price">Price:</label><br>
+                <input type="number" step="0.01" id="addPrice" name="addPrice" placeholder="e.g 2.00" required><br><br>
+                
+                <input type="submit" value="Submit" class="back-btn">
+                <p id="resultMessage" style="color: green; font-weight: bold;"></p>
+            </form> 
+
+            <h2>Update Medicine</h2>
+
+                <form id="updateForm">
+                <label >Name:</label><br>
+                <input type="text" id="name" placeholder="e.g. Paracetamol" required><br><br>
+
+                <label>New Price:</label><br>
+                <input type="number" id="price" step="0.01" placeholder="e.g 2.00" required><br><br>
+
+                <button type="submit" class="back-btn">Update</button>
+                <p id="updateResult" style="font-weight: bold;"></p>
+
+                </form>
+
+            <h2> Delete Medicine</h2>
+                <form id="deleteMed">
+                    <label for="deleteName">Enter Medicine Name</label><br>
+                    <input type="text" id="deleteName" name="deleteName" placeholder="e.g Paracetamol" required><br>
+
+                    <input type="submit" value="Submit" class="back-btn">
+                    <p id="deleteResult" style="font-weight: bold;"></p>
+                </form>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>

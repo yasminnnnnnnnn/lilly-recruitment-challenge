@@ -15,6 +15,8 @@ body {
     padding-top: 30px;
 }
 
+
+
 /* Disclaimer styles. DO NOT REMOVE OR EDIT UNLESS ABSOLUTELY NECESSARY */
 .disclaimer {
     position: fixed;
@@ -30,3 +32,146 @@ body {
 }
 
 /* ---- Your custom styles below ---- */
+
+
+
+.center {
+    width: 80%;    
+    margin: 0 auto;
+    border: 3px solid #ad2121; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.text {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.top-left-text {
+    position: absolute;   /* Allows us to place it anywhere on the page */
+    top: 30px;            /* Distance from the top */
+    left: 10px;           /* Distance from the left */
+    font-size: 18px;      /* Optional styling */
+    font-weight: bold;    /* Optional */
+}
+
+.back-btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background: #e9e9e9;
+    border-radius: 8px;
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.back-btn:hover{
+  background: #d6d6d6;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    width: 500px;   /* adjust how wide you want the form box */
+}
+
+.page-wrapper {
+    height: calc(100vh - 40px); /* subtract disclaimer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-left {
+    position: absolute;
+    left: 20px;     /* Distance from left edge */
+    top: 50px;      /* Below disclaimer */
+    margin: 0;      /* Remove auto-centering */
+}
+
+
+
+
+.medicine-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   /* centers horizontally */
+    align-items: center;   /* aligns from top, not middle */
+    min-height: 100vh;
+    background: #f4f4f4;
+    padding-top: 50px; /* gives some room from disclaimer */
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin: 15px 0 25px 0;
+}
+.main-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #e9e9e9;
+    border-radius: 8px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background 0.2s ease;
+    margin-top: 30px;
+}
+
+.main-btn:hover {
+    background: #d6d6d6;
+}
+
+
+
+/* 
+Search picture
+ */
+
+ .hero-section {
+    width:100%;
+    text-align: center;
+    padding: 80px 0px;
+    overflow: hidden;
+}
+
+.hero-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    
+  
+}
+
+.hero-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
