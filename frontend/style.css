@@ -60,11 +60,11 @@ img {
 }
 
 .top-left-text {
-    position: absolute;   /* Allows us to place it anywhere on the page */
-    top: 30px;            /* Distance from the top */
-    left: 10px;           /* Distance from the left */
-    font-size: 18px;      /* Optional styling */
-    font-weight: bold;    /* Optional */
+    position: absolute;   
+    top: 30px;            
+    left: 10px;          
+    font-size: 18px;      
+    font-weight: bold;    
 }
 
 .back-btn{
@@ -89,11 +89,11 @@ img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
-    width: 500px;   /* adjust how wide you want the form box */
+    width: 500px;   
 }
 
 .page-wrapper {
-    height: calc(100vh - 40px); /* subtract disclaimer height */
+    height: calc(100vh - 40px); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,19 +101,19 @@ img {
 
 .back-left {
     position: absolute;
-    left: 20px;     /* Distance from left edge */
-    top: 50px;      /* Below disclaimer */
-    margin: 0;      /* Remove auto-centering */
+    left: 20px;    
+    top: 50px;    
+    margin: 0;     
 }
 
 .medicine-page {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;   /* centers horizontally */
-    align-items: center;   /* aligns from top, not middle */
+    justify-content: flex-start;   
+    align-items: center;   
     min-height: 100vh;
     background: #f4f4f4;
-    padding-top: 50px; /* gives some room from disclaimer */
+    padding-top: 50px; 
 }
 
 .search-wrapper {
